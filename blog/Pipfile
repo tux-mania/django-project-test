@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+django-extensions = "*"
+django-environ = "*"
+pillow = "*"
+crispy-bootstrap5 = "*"
+
+[dev-packages]
+django-debug-toolbar = "*"
+
+[production]
+
+[requires]
+python_version = "*"
